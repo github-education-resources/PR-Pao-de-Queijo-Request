@@ -6,6 +6,8 @@ Para participar e receber o seu Pão de Queijo gratuito, você precisa seguir os
 ### 1. Faça um Pull Request neste repositório
 TODO: screen recording making a PR from the browser
 
+O que voce recomendaria para outra pessoa Campuseira fazer durante a Campus Party? (Max 280 char)
+
 Replace <YOUR-USERNAME> with your GitHub username in this guide. Please note that the <YOUR-USERNAME> is Case Sensitive. For Example, if your username is MonaTheOctocat, using anything other than it like monatheoctocat or monaTheoctocat will throw an error while submitting the Pull Request, make sure you're using the exact same case as your username in both the folder name and file name.
   
 Do not use special characters in the template above.
