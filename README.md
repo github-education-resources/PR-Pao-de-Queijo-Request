@@ -12,7 +12,11 @@ Substitua `<SEU-USUARIO>` pelo seu usuário do GitHub neste guia. Fique atento, 
   
 🚨 Não use caracteres especiais no template acima.
     
-TODO: add md template with question for everyone to answer
+```
+---
+quote: Your quote here.
+---
+```
   
 Use o checklist no template do Pull Request para garantir que sua submissão é válida. A equipe do GitHub Education irá revisar sua aplicação, aprovar e fazer o merge da sua submissão se tudo estiver correto. Caso contrário, você será notificado das mudanças necessárias nos comentários do Pull Request.
 
