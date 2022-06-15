@@ -4,7 +4,6 @@
 Para participar e receber o seu Pão de Queijo gratuito, você precisa seguir os três passos descritos abaixo. 
 
 ### 1. Faça um Pull Request neste repositório
-TODO: screen recording making a PR from the browser
 
 O que voce recomendaria para outra pessoa Campuseira fazer durante a Campus Party? (Max 280 char)
 
