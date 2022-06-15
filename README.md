@@ -73,17 +73,17 @@ Informações importantes: Segafredo fica no primeiro andar, junto com as lojas.
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/mlarasusan">
-            <img src="https://avatars.githubusercontent.com/u/96354369?v=4" width="100;" alt="mlarasusan"/>
-            <br />
-            <sub><b>Lara Croft </b></sub>
-        </a>
-    </td>
-    <td align="center">
         <a href="https://github.com/github-education">
             <img src="https://avatars.githubusercontent.com/u/97467892?v=4" width="100;" alt="github-education"/>
             <br />
             <sub><b>GitHub Education</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/mlarasusan">
+            <img src="https://avatars.githubusercontent.com/u/96354369?v=4" width="100;" alt="mlarasusan"/>
+            <br />
+            <sub><b>Lara Croft </b></sub>
         </a>
     </td>
     <td align="center">
@@ -98,7 +98,7 @@ Informações importantes: Segafredo fica no primeiro andar, junto com as lojas.
         <a href="https://github.com/lasrtest">
             <img src="https://avatars.githubusercontent.com/u/107520330?v=4" width="100;" alt="lasrtest"/>
             <br />
-            <sub><b>lasrtest</b></sub>
+            <sub><b>Lasrtest</b></sub>
         </a>
     </td></tr>
 </table>
