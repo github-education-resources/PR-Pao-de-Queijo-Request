@@ -8,15 +8,16 @@ TODO: screen recording making a PR from the browser
 
 O que voce recomendaria para outra pessoa Campuseira fazer durante a Campus Party? (Max 280 char)
 
-Replace <YOUR-USERNAME> with your GitHub username in this guide. Please note that the <YOUR-USERNAME> is Case Sensitive. For Example, if your username is MonaTheOctocat, using anything other than it like monatheoctocat or monaTheoctocat will throw an error while submitting the Pull Request, make sure you're using the exact same case as your username in both the folder name and file name.
+
+Substitua <SEU-USUARIO> pelo seu usuário do GitHub neste guia. Fique atento, que <SEU-USUARIO> é Case Sensitive (respeita maiúsculas e minúsculas). Por exemplo, se o seu nome de usuário é `MonaTheOctocat`, usar outras variações como `monatheoctocat` ou `monaTheoctocat` irá gerar um erro ao submeter o Pull Request. Tenha certeza que você está usando o seu nome de usuário corretamente tanto no nome da pasta quanto no nome do arquivo.
   
-Do not use special characters in the template above.
-  
+🚨 Não use caracteres especiais no template acima.
+    
 TODO: add md template with question for everyone to answer
+  
+Use o checklist no template do Pull Request para garantir que sua submissão é válida. A equipe do GitHub Education irá revisar sua aplicação, aprovar e fazer o merge da sua submissão se tudo estiver correto. Caso contrário, você será notificado das mudanças necessárias nos comentários do Pull Request.
 
-Go through the checklist on the pull request template to guarantee your submission is valid. The GitHub Education team will review your application, approve and merge your submission if everything is correct. Otherwise, you will get notified of the changes requested in the pull request comment section.
-
-Having trouble submitting your Pull Request? Ask for help in the GitHub Community!
+❓ Está enfrentando algum problema ao submeter o seu Pull Request? Busque por ajuda no GitHub Community!
   
 ### 2. Encontre alguém do GitHub na Campus Party 
 Funcionários e Campus Experts do GitHub são os únicos com a permissão para aprovar o seu Pull Request e fornecer o cupom para o pão de queijo. Você pode nos encontrar caminhando pelo evento (as pessoas das fotos abaixo), mas estaremos sempre em nossa bancada dentro da arena 👀 🗺️
