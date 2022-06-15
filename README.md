@@ -59,17 +59,17 @@ Informações importantes: Segafredo fica no primeiro andar, junto com as lojas.
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/lasr21">
-            <img src="https://avatars.githubusercontent.com/u/562146?v=4" width="100;" alt="lasr21"/>
-            <br />
-            <sub><b>Lasr21</b></sub>
-        </a>
-    </td>
-    <td align="center">
         <a href="https://github.com/pedrolacerda">
             <img src="https://avatars.githubusercontent.com/u/609076?v=4" width="100;" alt="pedrolacerda"/>
             <br />
             <sub><b>Pedro Lacerda</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/lasr21">
+            <img src="https://avatars.githubusercontent.com/u/562146?v=4" width="100;" alt="lasr21"/>
+            <br />
+            <sub><b>Lasr21</b></sub>
         </a>
     </td>
     <td align="center">
