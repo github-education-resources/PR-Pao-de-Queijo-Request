@@ -49,5 +49,42 @@ Informações importantes: Segafredo fica no primeiro andar, junto com as lojas.
 ## Vencedores do Pão de Queijo
 
 <!-- readme: contributors -start -->
-
+<table>
+<tr>
+    <td align="center">
+        <a href="https://github.com/elisemoe">
+            <img src="https://avatars.githubusercontent.com/u/6633808?v=4" width="100;" alt="elisemoe"/>
+            <br />
+            <sub><b>Elise Hollowed</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/lasr21">
+            <img src="https://avatars.githubusercontent.com/u/562146?v=4" width="100;" alt="lasr21"/>
+            <br />
+            <sub><b>Lasr21</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/pedrolacerda">
+            <img src="https://avatars.githubusercontent.com/u/609076?v=4" width="100;" alt="pedrolacerda"/>
+            <br />
+            <sub><b>Pedro Lacerda</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/mlarasusan">
+            <img src="https://avatars.githubusercontent.com/u/96354369?v=4" width="100;" alt="mlarasusan"/>
+            <br />
+            <sub><b>Lara Croft </b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/juanpflores">
+            <img src="https://avatars.githubusercontent.com/u/6200135?v=4" width="100;" alt="juanpflores"/>
+            <br />
+            <sub><b>Juan Pablo Flores </b></sub>
+        </a>
+    </td></tr>
+</table>
 <!-- readme: contributors -end -->
