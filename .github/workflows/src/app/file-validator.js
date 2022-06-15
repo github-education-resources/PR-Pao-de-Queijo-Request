@@ -6,7 +6,7 @@ const md = require('markdown-it')
 const pullAuthor = actionEvent.pull.user.login
 const expectedPath = `data/${pullAuthor}`
 const authors1 = `data/authors.txt`
-const characterLimits = {  quote: 140 }
+const characterLimits = {  quote: 280 }
 
 class FileVaidator {
   constructor() {
