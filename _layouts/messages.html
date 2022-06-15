@@ -1,16 +1,32 @@
 ---
 layout: default
-pagination: 
-  enabled: true
+title: Messages
 ---
 
 {% assign message_list = site.messages | sort: "time" | reverse %}
+<div>
+  <center>
+    {% for message in message_list limit: 100 %}
+    <div class="col-6" style="padding: 1em ;" >
+      <div class="Box color-shadow-small">
+        <div class="Box-row">
+          <h3 class="m-0">{{ message.name }} - {{ message.github-user }}</h3>
+        </div>
+        <div class="Box-row">
+          <p class="mb-0 color-fg-muted">
+            {{ message.content | markdownify  | truncate: 150 }}
+          </p>
+        </div>
+        <div class="Box-row">
+          <a href="{{ message.url }}"  name="Create an organization" class="btn btn-primary btn-block">
+            Read Message
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    {% endfor %}
+    
+  </center>
 
-{% for message in message_list limit: 100 %}
-  <h2>{{ message.name }} - {{ message.github-user }}</h2>
-  <p>{{ message.content | markdownify }}</p>
-  <p>{{ message.time }}</p>
-  <p>{{ message.url }}</p>
-{% endfor %}
-
-HI2
+</div>
