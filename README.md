@@ -17,7 +17,7 @@ TODO: add md template with question for everyone to answer
   
 Use o checklist no template do Pull Request para garantir que sua submissão é válida. A equipe do GitHub Education irá revisar sua aplicação, aprovar e fazer o merge da sua submissão se tudo estiver correto. Caso contrário, você será notificado das mudanças necessárias nos comentários do Pull Request.
 
-❓ Está enfrentando algum problema ao submeter o seu Pull Request? Busque por ajuda no GitHub Community!
+❓ Está enfrentando algum problema ao submeter o seu Pull Request? Busque por ajuda no [GitHub Community](https://github.community/)!
   
 ### 2. Encontre alguém do GitHub na Campus Party 
 Funcionários e Campus Experts do GitHub são os únicos com a permissão para aprovar o seu Pull Request e fornecer o cupom para o pão de queijo. Você pode nos encontrar caminhando pelo evento (as pessoas das fotos abaixo), mas estaremos sempre em nossa bancada dentro da arena 👀 🗺️
