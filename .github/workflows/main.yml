@@ -13,7 +13,6 @@ on:
   workflow_dispatch:
 jobs:
   build:
-    if: ${{ !contains(github.event.pull_request.labels.*.name, 'enhancement') }}
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -41,26 +40,9 @@ jobs:
         id: getminute
         run: echo "::set-output name=minute::$(date -u '+%M')"
         shell: bash # For Windows, Linux and macOS default to bash alrea
-      - name: Cache data
-        id: cache-data
-        uses: actions/cache@v2
-        with:
-          path: .github/workflows/src/app/data
-          key: ${{ runner.OS }}-${{ steps.getminute.outputs.minute }} # cache for 1 minute
-      - name: Cache Airtable
-        if: steps.cache-data.outputs.cache-hit != 'true'
-        run: node fetch-data.js
-        env:
-          AIRTABLE_SECRET: ${{ secrets.AIRTABLE_SECRET }}
-          GH_SECRET: ${{ secrets.GH_SECRET }}
-          EDUCATION_WEB_KEY: ${{ secrets.EDUCATION_WEB_KEY }}
-          EDUCATION_WEB_SECRET: ${{ secrets.EDUCATION_WEB_SECRET }}
-          EDUCATION_WEB_API: ${{ secrets.EDUCATION_WEB_API }}
-      - name: run entry point
+
+          
+      - name: run validations
         run: node index.js
         env:
-          AIRTABLE_SECRET: ${{ secrets.AIRTABLE_SECRET }}
           GH_SECRET: ${{ secrets.GH_SECRET }}
-          EDUCATION_WEB_KEY: ${{ secrets.EDUCATION_WEB_KEY }}
-          EDUCATION_WEB_SECRET: ${{ secrets.EDUCATION_WEB_SECRET }}
-          EDUCATION_WEB_API: ${{ secrets.EDUCATION_WEB_API }}
