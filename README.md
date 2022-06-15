@@ -14,7 +14,7 @@ Substitua `<SEU-USUARIO>` pelo seu usuário do GitHub neste guia. Fique atento, 
     
 ```
 ---
-quote: Your quote here.
+quote: Sua frase aqui.
 ---
 ```
   
