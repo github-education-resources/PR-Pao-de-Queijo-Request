@@ -1,9 +1,9 @@
 # GitHub x PR Pão de Queijo
 
-## How to join PR Pão de Queijo
-There are three steps to join and receive your free Pão de Queijo.
+## Como participar do PR Pão de Queijo
+Para participar e receber o seu Pão de Queijo gratuito, você precisa seguir os três passos descritos abaixo. 
 
-### 1. Create a Pull Request to this repository
+### 1. Faça um Pull Request neste repositório
 TODO: screen recording making a PR from the browser
 
 Replace <YOUR-USERNAME> with your GitHub username in this guide. Please note that the <YOUR-USERNAME> is Case Sensitive. For Example, if your username is MonaTheOctocat, using anything other than it like monatheoctocat or monaTheoctocat will throw an error while submitting the Pull Request, make sure you're using the exact same case as your username in both the folder name and file name.
@@ -16,12 +16,10 @@ Go through the checklist on the pull request template to guarantee your submissi
 
 Having trouble submitting your Pull Request? Ask for help in the GitHub Community!
   
-### 2. Find a GitHub Employee or Campus Expert
-GitHub Employees and GitHub Campus Experts all have the permission to merge your Pull Request and give you a coupon for free Pao de queijo. We might be walking around the event but you can also find us at our table. 👀 🗺️
+### 2. Encontre alguém do GitHub na Campus Party 
+Funcionários e Campus Experts do GitHub são os únicos com a permissão para aprovar o seu Pull Request e fornecer o cupom para o pão de queijo. Você pode nos encontrar caminhando pelo evento (as pessoas das fotos abaixo), mas estaremos sempre em nossa bancada dentro da arena 👀 🗺️
   
-TODO: add instructions about how to find our table at Campus Party
-
-People with the power to merge your Pull Request -
+Essas são as pessoas autorizadas a aprovar o seu Pull Request -
   
   ![mlarasusan](https://avatars.githubusercontent.com/mlarasusan?s=64)
   ![elisemoe](https://avatars.githubusercontent.com/elisemoe?s=64)
@@ -31,13 +29,12 @@ People with the power to merge your Pull Request -
   ![euaaron](https://avatars.githubusercontent.com/euaaron?s=64)
   ![wgcv](https://avatars.githubusercontent.com/wgcv?s=64)
   
-  ### 3. Eat! Head to the coffee shop to redeem your coupon.
-  TODO: add information about how to find the coffee shop and the hours they're open.
+  ### 3. Hora de comer! Vá até o Segafredo Café para retirar o seu pão de queijo
   
-  ## More ways to hangout with GitHub Education at Campus Party
-  - [ ] Tell your friends about Pao de queijo! If 3 friends tag you in their Pull Request, we'll give you a GitHub t-shirt
-  - [ ] Follow our social media accounts
-  - [ ] Join the Student Developer Pack
-  - [ ] Post a photo with your Pao de queijo and tag @GitHubEducation
+Informações importantes: Segafredo fica no primeiro andar, junto com as lojas. Você pode trocar o seu cupom por um pão de queijo, OU uma fatia de bolo de fubá, OU um café. 
   
-  
+  ## Outras formas de participar com o GitHub na Campus Party 
+  - [ ] Compartilhe sobre o PR Pao de Queijo com seus amigos. Se você for marcado em três diferentes Pull Requests, VOCÊ ganha uma camiseta do GitHub (retirar em nossa bancada) 
+  - [ ] Siga o GitHub Education no [Twitter](https://twitter.com/GitHubEducation) e [Instagram](https://www.instagram.com/githubeducation/) 
+  - [ ] Se inscreva para o [Student Developer Pack](https://education.github.com/pack) (vá até a nossa bancada para suporte) 
+  - [ ] Poste uma foto com o seu pão de queijo e marque o GitHub Education
