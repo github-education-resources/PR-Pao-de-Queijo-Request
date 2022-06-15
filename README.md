@@ -1,4 +1,4 @@
-# GitHub x PR Pao de Queijo
+# GitHub x PR Pão de Queijo
 
 ## How to join PR Pão de Queijo
 There are three steps to join and receive your free Pão de Queijo.
