@@ -4,9 +4,13 @@
 There are three steps to join and receive your free Pão de Queijo.
 
 ### 1. Create a Pull Request to this repository
+TODO: screen recording making a PR from the browser
+
 Replace <YOUR-USERNAME> with your GitHub username in this guide. Please note that the <YOUR-USERNAME> is Case Sensitive. For Example, if your username is MonaTheOctocat, using anything other than it like monatheoctocat or monaTheoctocat will throw an error while submitting the Pull Request, make sure you're using the exact same case as your username in both the folder name and file name.
   
 Do not use special characters in the template above.
+  
+TODO: add md template with question for everyone to answer
 
 Go through the checklist on the pull request template to guarantee your submission is valid. The GitHub Education team will review your application, approve and merge your submission if everything is correct. Otherwise, you will get notified of the changes requested in the pull request comment section.
 
