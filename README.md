@@ -1,4 +1,4 @@
-# GitHub PR - Pao de Queijo Request
+# GitHub PR - Pão de Queijo Request
 
 ## Como participar do PR Pão de Queijo
 Para participar e receber o seu Pão de Queijo gratuito, você precisa seguir os três passos descritos abaixo. 
