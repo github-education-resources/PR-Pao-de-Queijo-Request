@@ -31,10 +31,11 @@ if(!process.env.GITHUB_ACTIONS) {
 const octokit = require('./app/octokit.js');
 const actionEvent = require('./app/action-event.js');
 const fileValidator = require('./app/file-validator.js');
-
+const authors = ('../../../README.md');
+const author = actionEvent.pullAuthor
 const BOT_ACCOUNT_LOGIN = "github-education"
 
-
+const fs = require('fs');
 
 try {
 ;(async ()=>{
@@ -111,9 +112,20 @@ try {
   // - collapse requested changes comment
   // - welcome and congrats
   // - merge PR
-
- 
   let closePR = false
+
+  // here it vlidated 
+  fs.readFile(authors, function (err, data) {
+    if (err) throw err;
+    if(data.includes(author)){
+     console.log("lo ecnontre kachau wey")
+     let closePR = true
+     feedBackMessage = "I'm really sorry! It looks like you've already participaed in this activity"
+     feedback.push("oh oh we have a problem")
+    }
+  });
+ 
+  
 
   if(!isFilePathValid.isValid) {
     console.log('Files have errors: \n' + isFilePathValid.errors.join('\n'))
@@ -128,7 +140,7 @@ try {
 
   let feedBackMessage = ""
   if(closePR) {
-    feedBackMessage = "I'm really sorry! It looks like you've already graduated in a previous year. This is for first time grads!"
+    feedBackMessage = "I'm really sorry! It looks like you've already participaed in this activity"
   } else if(feedback.length) {
     feedBackMessage = `
 ### I have a few items I need you to take care of before I can merge this PR:\n
