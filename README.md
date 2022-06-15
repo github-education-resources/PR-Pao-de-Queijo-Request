@@ -52,6 +52,13 @@ Informações importantes: Segafredo fica no primeiro andar, junto com as lojas.
 <table>
 <tr>
     <td align="center">
+        <a href="https://github.com/lasr21">
+            <img src="https://avatars.githubusercontent.com/u/562146?v=4" width="100;" alt="lasr21"/>
+            <br />
+            <sub><b>Lasr21</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/elisemoe">
             <img src="https://avatars.githubusercontent.com/u/6633808?v=4" width="100;" alt="elisemoe"/>
             <br />
@@ -66,13 +73,6 @@ Informações importantes: Segafredo fica no primeiro andar, junto com as lojas.
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/lasr21">
-            <img src="https://avatars.githubusercontent.com/u/562146?v=4" width="100;" alt="lasr21"/>
-            <br />
-            <sub><b>Lasr21</b></sub>
-        </a>
-    </td>
-    <td align="center">
         <a href="https://github.com/mlarasusan">
             <img src="https://avatars.githubusercontent.com/u/96354369?v=4" width="100;" alt="mlarasusan"/>
             <br />
@@ -80,10 +80,25 @@ Informações importantes: Segafredo fica no primeiro andar, junto com as lojas.
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/github-education">
+            <img src="https://avatars.githubusercontent.com/u/97467892?v=4" width="100;" alt="github-education"/>
+            <br />
+            <sub><b>GitHub Education</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/juanpflores">
             <img src="https://avatars.githubusercontent.com/u/6200135?v=4" width="100;" alt="juanpflores"/>
             <br />
             <sub><b>Juan Pablo Flores </b></sub>
+        </a>
+    </td></tr>
+<tr>
+    <td align="center">
+        <a href="https://github.com/lasrtest">
+            <img src="https://avatars.githubusercontent.com/u/107520330?v=4" width="100;" alt="lasrtest"/>
+            <br />
+            <sub><b>lasrtest</b></sub>
         </a>
     </td></tr>
 </table>
