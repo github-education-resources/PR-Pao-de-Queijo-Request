@@ -1,0 +1,16 @@
+---
+layout: default
+pagination: 
+  enabled: true
+---
+
+{% assign message_list = site.messages | sort: "time" | reverse %}
+
+{% for message in message_list limit: 100 %}
+  <h2>{{ message.name }} - {{ message.github-user }}</h2>
+  <p>{{ message.content | markdownify }}</p>
+  <p>{{ message.time }}</p>
+  <p>{{ message.url }}</p>
+{% endfor %}
+
+HI2
