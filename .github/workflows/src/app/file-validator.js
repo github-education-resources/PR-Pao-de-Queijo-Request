@@ -41,7 +41,7 @@ class FileVaidator {
         errors.push(`*The yaml content in \`${expectedPath}/${pullAuthor}.md\` must contain your github username*`)
       }*/
       for(const key of [ "time" ]) {
-        console.log(meta[key]);
+        errors.push(meta[key])
         if(!meta[key]) {
           errors.push(`*The attribute time is required in \`${expectedPath}/${pullAuthor}.md\`*`)
         }
