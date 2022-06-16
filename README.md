@@ -52,6 +52,7 @@ Informações importantes: Segafredo fica no primeiro andar, junto com as lojas.
   - [ ] Se inscreva para o [Student Developer Pack](https://education.github.com/pack) (vá até a nossa bancada para suporte) 
   - [ ] Poste uma foto com o seu pão de queijo e marque o GitHub Education (https://twitter.com/GitHubEducation ou https://www.instagram.com/githubeducation/)
 
+https://education.github.io/PR-Pao-de-Queijo-Request/
 
 ## Vencedores do Pão de Queijo
 
