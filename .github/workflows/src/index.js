@@ -73,7 +73,7 @@ try {
   const isFilePathValid = fileValidator.isValidPaths(fileNames)
 
   try {
-    content = isFilePathValid.isValid && await octokit.getContent(`/${actionEvent.pullAuthor}.md`)
+    content = isFilePathValid.isValid && await octokit.getContent(`_messages/${actionEvent.pullAuthor}.md`)
   } catch(err) {
     feedback.push("I was unable to view the content of the markdown file, please try again in a few minutes")
     console.log(err)
