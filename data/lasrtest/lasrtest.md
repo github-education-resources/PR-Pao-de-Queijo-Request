@@ -1,3 +1,0 @@
----
-quote: this is fine 
----
