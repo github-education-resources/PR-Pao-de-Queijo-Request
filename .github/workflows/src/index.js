@@ -119,9 +119,9 @@ try {
     if (err) throw err;
     if(data.includes(author)){
      let closePR = true
-     feedBackMessage = "I'm really sorry! It looks like you've already participaed in this activity"
+     feedBackMessage = "I'm really sorry! It looks like you've already participaed in this activity :("
      feedback.push("oh oh we have a problem")
-     process.exit(1)
+     //process.exit(1)
     }
   });
  
@@ -139,7 +139,7 @@ try {
   
 
   
-  if(closePR) {
+  if(closePR === true) {
     feedBackMessage = "I'm really sorry! It looks like you've already participaed in this activity"
   } else if(feedback.length) {
     feedBackMessage = `
