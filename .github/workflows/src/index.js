@@ -121,6 +121,7 @@ try {
      let closePR = true
      feedBackMessage = "I'm really sorry! It looks like you've already participaed in this activity"
      feedback.push("oh oh we have a problem")
+     process.exit(1)
     }
   });
  
@@ -154,7 +155,9 @@ Feel free to re-request a review from me and I'll come back and take a look!
 
     try {
       // await octokit.mergePR()
-      await octokit.addReviewLabel()
+
+        await octokit.addReviewLabel()
+       
 
     } catch(err) {
       console.error(err)
