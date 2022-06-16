@@ -7,8 +7,13 @@ Para participar e receber o seu Pão de Queijo gratuito, você precisa seguir os
 
 O que voce recomendaria para outra pessoa Campuseira fazer durante a Campus Party? (Max 280 char)
 
+Substitua `<SEU-USUARIO>` pelo seu usuário do GitHub neste guia. 
 
-Substitua `<SEU-USUARIO>` pelo seu usuário do GitHub neste guia. Fique atento, que `<SEU-USUARIO>` é Case Sensitive (respeita maiúsculas e minúsculas). Por exemplo, se o seu nome de usuário é `MonaTheOctocat`, usar outras variações como `monatheoctocat` ou `monaTheoctocat` irá gerar um erro ao submeter o Pull Request. Tenha certeza que você está usando o seu nome de usuário corretamente tanto no nome da pasta quanto no nome do arquivo.
+Crie um arquivo markdown dentro da pasta `_messages` seguindo esse exemplo: `<YOUR-USERNAME>.md`. 
+
+Ex. `_messages/MonaTheOctocat.md`
+
+Fique atento, que `<SEU-USUARIO>` é Case Sensitive (respeita maiúsculas e minúsculas). Por exemplo, se o seu nome de usuário é `MonaTheOctocat`, usar outras variações como `monatheoctocat` ou `monaTheoctocat` irá gerar um erro ao submeter o Pull Request. Tenha certeza que você está usando o seu nome de usuário corretamente tanto no nome da pasta quanto no nome do arquivo.
   
 🚨 Não use caracteres especiais no template acima.
     
