@@ -49,5 +49,14 @@ Informações importantes: Segafredo fica no primeiro andar, junto com as lojas.
 ## Vencedores do Pão de Queijo
 
 <!-- readme: contributors,lasr21/-,elisemoe/-,pedrolacerda/-,mlarasusan/-,github-education/-,juanpflores/- -start -->
-
+<table>
+<tr>
+    <td align="center">
+        <a href="https://github.com/lasrtest">
+            <img src="https://avatars.githubusercontent.com/u/107520330?v=4" width="100;" alt="lasrtest"/>
+            <br />
+            <sub><b>lasrtest</b></sub>
+        </a>
+    </td></tr>
+</table>
 <!-- readme: contributors,lasr21/-,elisemoe/-,pedrolacerda/-,mlarasusan/-,github-education/-,juanpflores/- -end -->
