@@ -5,7 +5,7 @@ Para participar e receber o seu Pão de Queijo gratuito, você precisa seguir os
 
 ### 1. Faça um Pull Request neste repositório
 
-O que voce recomendaria para outra pessoa Campuseira fazer durante a Campus Party? (Max 280 char)
+O que você recomendaria para outra pessoa Campuseira fazer durante a Campus Party? (Max 280 char)
 
 Substitua `<SEU-USUARIO>` pelo seu usuário do GitHub neste guia. 
 
@@ -50,7 +50,7 @@ Informações importantes: Segafredo fica no primeiro andar, junto com as lojas.
   - [ ] Compartilhe sobre o PR Pão de Queijo com seus amigos. Se você for marcado em três diferentes Pull Requests, VOCÊ ganha uma camiseta do GitHub (retirar em nossa bancada) 
   - [ ] Siga o GitHub Education no [Twitter](https://twitter.com/GitHubEducation) e [Instagram](https://www.instagram.com/githubeducation/) 
   - [ ] Se inscreva para o [Student Developer Pack](https://education.github.com/pack) (vá até a nossa bancada para suporte) 
-  - [ ] Poste uma foto com o seu pão de queijo e marque o GitHub Education (https://twitter.com/GitHubEducation ou https://www.instagram.com/githubeducation/)
+  - [ ] Poste uma foto com o seu pão de queijo e marque o GitHub Education no [Twitter](https://twitter.com/GitHubEducation) e/ou [Instagram](https://www.instagram.com/githubeducation/)
 
 https://education.github.io/PR-Pao-de-Queijo-Request/
 
