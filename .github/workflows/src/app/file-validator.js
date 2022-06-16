@@ -41,14 +41,13 @@ class FileVaidator {
         errors.push(`*The yaml content in \`${expectedPath}/${pullAuthor}.md\` must contain your github username*`)
       }*/
       for(const key of [ "time" ]) {
-        errors.push(String(meta[key]))
-        if(!meta[key]) {
+        if(!meta["time"]) {
           errors.push(`*The attribute time is required in \`${expectedPath}/${pullAuthor}.md\`*`)
         }
-        if(/(\d{4})-(\d{2})-(\d{2}) (\d{2}):(\d{2}):(\d{2})/.test(String(meta[key]))){
+        if(!(/(\d{4})-(\d{2})-(\d{2}) (\d{2}):(\d{2}):(\d{2})/.test(String(meta["time"])))){
           errors.push(`*The attribute time need to be in the format: YYYY-MM-DD HH:MM:SS. For example: 2022-06-15 17:01:10*`)
         }
-        if (new Date(String(meta[key])) < new Date()){
+        if (!(new Date(String(meta["time"])) < new Date())){
           errors.push(`*You can't a time in the future.*`)
         }
       }
