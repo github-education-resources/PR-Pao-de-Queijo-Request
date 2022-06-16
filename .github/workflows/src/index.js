@@ -113,7 +113,7 @@ try {
   // - welcome and congrats
   // - merge PR
   let closePR = false
-
+  let participant = false
   // here it vlidated 
   
   // disable doble validation 
@@ -121,8 +121,8 @@ try {
   fs.readFile(authors, function (err, data) {
     if (err) throw err;
     if(data.includes(author)){
-     let closePR = true
-     errors.push("I'm really sorry! It looks like you've already participaed in this activity")
+      participant = true
+     feedBackMessage = "I'm really sorry! It looks like you've already participaed in this activity :("
     }
   });
  
@@ -141,7 +141,7 @@ try {
 
   let feedBackMessage = ""
   if(closePR) {
-    feedBackMessage = "I'm really sorry! It looks like you've already participaed in this activity"
+    feedBackMessage = "I'm really sorry!"
   } else if(feedback.length) {
     feedBackMessage = `
 ### I have a few items I need you to take care of before I can merge this PR:\n
@@ -156,7 +156,10 @@ Feel free to re-request a review from me and I'll come back and take a look!
 
     try {
       // await octokit.mergePR()
-      await octokit.addReviewLabel()
+      if(participant === false){
+        await octokit.addReviewLabel()
+      }
+      
 
     } catch(err) {
       console.error(err)
