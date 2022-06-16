@@ -14,9 +14,9 @@ Substitua `<SEU-USUARIO>` pelo seu usuário do GitHub neste guia. Fique atento, 
     
 ```
 ---
-user: Sua github user
+user: Caruh13
 time: 2022-06-16 11:00:00
-quote: Sua frase aqui.
+quote: Recomendo participar ao máximo dos eventos e conhecer pessoas com conhecimentos diversos. Além de conhecer pessoas da mesma área tecnológica que poderá ser de grande valia, ampliar as idéias.
 ---
 ```
   
