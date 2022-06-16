@@ -66,14 +66,14 @@ try {
   const fileNames = pull.files.edges.map((file)=>{
     return file.node.path
   })
-
+  
   let isMarkdownValid = {}
   let content
 
   const isFilePathValid = fileValidator.isValidPaths(fileNames)
 
   try {
-    content = isFilePathValid.isValid && await octokit.getContent(`data/${actionEvent.pullAuthor}/${actionEvent.pullAuthor}.md`)
+    content = isFilePathValid.isValid && await octokit.getContent(`_messages/${actionEvent.pullAuthor}.md`)
   } catch(err) {
     feedback.push("I was unable to view the content of the markdown file, please try again in a few minutes")
     console.log(err)
@@ -113,17 +113,21 @@ try {
   // - welcome and congrats
   // - merge PR
   let closePR = false
-  let feedBackMessage = ""
+  let participant = false
   // here it vlidated 
+  
+  // disable doble validation 
+  
+  /*
   fs.readFile(authors, function (err, data) {
     if (err) throw err;
     if(data.includes(author)){
-     let closePR = true
+    participant = true
      feedBackMessage = "I'm really sorry! It looks like you've already participaed in this activity :("
-     feedback.push("oh oh we have a problem")
-     //process.exit(1)
+     feedback.push("no more bread :(")
+    console.log(participant)
     }
-  });
+  }); */
  
   
 
@@ -138,9 +142,9 @@ try {
   }
   
 
-  
-  if(closePR === true) {
-    feedBackMessage = "I'm really sorry! It looks like you've already participaed in this activity"
+  let feedBackMessage = ""
+  if(closePR) {
+    feedBackMessage = "I'm really sorry!"
   } else if(feedback.length) {
     feedBackMessage = `
 ### I have a few items I need you to take care of before I can merge this PR:\n
@@ -152,14 +156,11 @@ Feel free to re-request a review from me and I'll come back and take a look!
     // All checks pass
     feedBackMessage = "Excellent, now you're one step away from a delicious pao de queijo. Find a hubber or Campus Expert so they can merge your pull request and give you a voucher for some pao de queijo. "
     
-
     try {
-      // await octokit.mergePR()
-
-        await octokit.addReviewLabel()
        
-
-    } catch(err) {
+        await octokit.addReviewLabel()
+      
+          } catch(err) {
       console.error(err)
       feedBackMessage += "\n\n Uh Oh! I tried to merge this PR and something went wrong!"
       feedback.push("merge failed")

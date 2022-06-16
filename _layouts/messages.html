@@ -1,0 +1,32 @@
+---
+layout: default
+title: Messages
+---
+
+{% assign message_list = site.messages | sort: "time" | reverse %}
+<div>
+  <center>
+    {% for message in message_list limit: 100 %}
+    <div class="col-6" style="padding: 1em ;" >
+      <div class="Box color-shadow-small">
+        <div class="Box-row">
+          <h3 class="m-0">{{ message.github-user }}</h3>
+        </div>
+        <div class="Box-row">
+          <p class="mb-0 color-fg-muted">
+            {{ message.quote | markdownify  | truncate: 150 }}
+          </p>
+        </div>
+        <div class="Box-row">
+          <a href="{{ site.baseurl }}{{ message.url }}"  name="Create an organization" class="btn btn-primary btn-block">
+            Read Message
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    {% endfor %}
+    
+  </center>
+
+</div>
