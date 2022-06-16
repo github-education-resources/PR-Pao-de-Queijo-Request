@@ -118,6 +118,7 @@ try {
   
   // disable doble validation 
   
+  /*
   fs.readFile(authors, function (err, data) {
     if (err) throw err;
     if(data.includes(author)){
@@ -126,7 +127,7 @@ try {
      feedback.push("no more bread :(")
     console.log(participant)
     }
-  });
+  }); */
  
   
 
@@ -153,20 +154,13 @@ Feel free to re-request a review from me and I'll come back and take a look!
     `
   } else {
     // All checks pass
-    await octokit.addReviewLabel()
     feedBackMessage = "Excellent, now you're one step away from a delicious pao de queijo. Find a hubber or Campus Expert so they can merge your pull request and give you a voucher for some pao de queijo. "
     
-
     try {
-      // await octokit.mergePR()
+       
+        await octokit.addReviewLabel()
       
-      console.log(participant)
-      if(participant == false){
-        //await octokit.addReviewLabel()
-      }
-      
-
-    } catch(err) {
+          } catch(err) {
       console.error(err)
       feedBackMessage += "\n\n Uh Oh! I tried to merge this PR and something went wrong!"
       feedback.push("merge failed")
