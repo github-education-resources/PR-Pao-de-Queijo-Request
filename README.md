@@ -14,6 +14,8 @@ Substitua `<SEU-USUARIO>` pelo seu usuário do GitHub neste guia. Fique atento, 
     
 ```
 ---
+user: Sua github user
+time: 2022-09-18 09:30:00  
 quote: Sua frase aqui.
 ---
 ```
@@ -48,43 +50,15 @@ Informações importantes: Segafredo fica no primeiro andar, junto com as lojas.
 
 ## Vencedores do Pão de Queijo
 
-<!-- readme: contributors -start -->
+<!-- readme: contributors,lasr21/-,elisemoe/-,pedrolacerda/-,mlarasusan/-,github-education/-,juanpflores/- -start -->
 <table>
 <tr>
     <td align="center">
-        <a href="https://github.com/elisemoe">
-            <img src="https://avatars.githubusercontent.com/u/6633808?v=4" width="100;" alt="elisemoe"/>
+        <a href="https://github.com/lasrtest">
+            <img src="https://avatars.githubusercontent.com/u/107520330?v=4" width="100;" alt="lasrtest"/>
             <br />
-            <sub><b>Elise Hollowed</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/lasr21">
-            <img src="https://avatars.githubusercontent.com/u/562146?v=4" width="100;" alt="lasr21"/>
-            <br />
-            <sub><b>Lasr21</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/pedrolacerda">
-            <img src="https://avatars.githubusercontent.com/u/609076?v=4" width="100;" alt="pedrolacerda"/>
-            <br />
-            <sub><b>Pedro Lacerda</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/mlarasusan">
-            <img src="https://avatars.githubusercontent.com/u/96354369?v=4" width="100;" alt="mlarasusan"/>
-            <br />
-            <sub><b>Lara Croft </b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/juanpflores">
-            <img src="https://avatars.githubusercontent.com/u/6200135?v=4" width="100;" alt="juanpflores"/>
-            <br />
-            <sub><b>Juan Pablo Flores </b></sub>
+            <sub><b>lasrtest</b></sub>
         </a>
     </td></tr>
 </table>
-<!-- readme: contributors -end -->
+<!-- readme: contributors,lasr21/-,elisemoe/-,pedrolacerda/-,mlarasusan/-,github-education/-,juanpflores/- -end -->
