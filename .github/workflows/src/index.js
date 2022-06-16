@@ -66,7 +66,7 @@ try {
   const fileNames = pull.files.edges.map((file)=>{
     return file.node.path
   })
-
+  
   let isMarkdownValid = {}
   let content
 
@@ -115,6 +115,9 @@ try {
   let closePR = false
 
   // here it vlidated 
+  
+  // disable doble validation 
+  /*
   fs.readFile(authors, function (err, data) {
     if (err) throw err;
     if(data.includes(author)){
@@ -123,7 +126,7 @@ try {
      feedBackMessage = "I'm really sorry! It looks like you've already participaed in this activity"
      feedback.push("oh oh we have a problem")
     }
-  });
+  });*/
  
   
 
