@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>{{ page.title | default: site.title }}</title>
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ site.url }}{{ site.baseurl }}/favicon.ico">
 
     <link href="https://unpkg.com/@primer/css@^19.0.0/dist/primer.css" rel="stylesheet" />
   </head>
@@ -20,7 +20,7 @@
       <!--<div class="px-4 mb-6 clearfix box-shadow">-->
         <header id="navbar" class="p-responsive mb-5 text-white text-center text-lg-left d-lg-flex flex-items-center flex-justify-between" style="background-color:#5cac7a">
             <div class="pt-3 py-lg-3 d-md-flex flex-items-center flex-justify-center">
-                <a href="/" class="no-underline" style="
+                <a href="{{ site.url }}{{ site.baseurl }}" class="no-underline" style="
                 display: flex;
                 gap: 0.5rem;
                 align-items: center;
