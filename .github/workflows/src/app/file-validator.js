@@ -5,7 +5,7 @@ const md = require('markdown-it')
 
 const pullAuthor = actionEvent.pull.user.login
 const expectedPath = `_messages`
-const characterLimits = { user: 28, time: 30, quote: 100 }
+const characterLimits = { user: 28, time: 30, quote: 280 }
 
 class FileVaidator {
   constructor() {
