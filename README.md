@@ -55,7 +55,7 @@ Informações importantes: Segafredo fica no primeiro andar, junto com as lojas.
         <a href="https://github.com/lasrtest">
             <img src="https://avatars.githubusercontent.com/u/107520330?v=4" width="100;" alt="lasrtest"/>
             <br />
-            <sub><b>lasrtest</b></sub>
+            <sub><b>Lasrtest</b></sub>
         </a>
     </td></tr>
 </table>
