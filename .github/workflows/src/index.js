@@ -113,12 +113,11 @@ try {
   // - welcome and congrats
   // - merge PR
   let closePR = false
-
+  let feedBackMessage = ""
   // here it vlidated 
   fs.readFile(authors, function (err, data) {
     if (err) throw err;
     if(data.includes(author)){
-     console.log("lo ecnontre kachau wey")
      let closePR = true
      feedBackMessage = "I'm really sorry! It looks like you've already participaed in this activity"
      feedback.push("oh oh we have a problem")
@@ -138,7 +137,7 @@ try {
   }
   
 
-  let feedBackMessage = ""
+  
   if(closePR) {
     feedBackMessage = "I'm really sorry! It looks like you've already participaed in this activity"
   } else if(feedback.length) {
