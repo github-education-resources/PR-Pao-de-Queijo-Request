@@ -75,7 +75,7 @@ try {
   try {
     content = isFilePathValid.isValid && await octokit.getContent(`_messages/${actionEvent.pullAuthor}.md`)
   } catch(err) {
-    feedback.push("I was unable to view the content of the markdown file, please try again in a few minutes")
+    feedback.push("Eu nao consegui ver o conteudo do arquivo markdown, por favor tente novamente em alguns segundos.")
     console.log(err)
   }
 
@@ -123,8 +123,8 @@ try {
     if (err) throw err;
     if(data.includes(author)){
     participant = true
-     feedBackMessage = "I'm really sorry! It looks like you've already participaed in this activity :("
-     feedback.push("no more bread :(")
+     feedBackMessage = "Sinto muito! Parece que voce ja participou dessa atividade :("
+     feedback.push("nao tem mais pao de queijo :(")
     console.log(participant)
     }
   }); */
@@ -133,18 +133,18 @@ try {
 
   if(!isFilePathValid.isValid) {
     console.log('Files have errors: \n' + isFilePathValid.errors.join('\n'))
-    feedback.push(`* *Uh Oh! I've found some issues with where you have created your files!* \n\t${isFilePathValid.errors?.join('\n')}`)
+    feedback.push(`* *Opa! Eu encontrei alguns problemas onde voce criou os arquivos!* \n\t${isFilePathValid.errors?.join('\n')}`)
   }
 
   if(isMarkdownValid.isValid === false) {
     console.log("markdown is invalid")
-    feedback.push(`* *Please take another look at your markdown file, there are errors:* \n\t${isMarkdownValid.errors?.join('\n')}`)
+    feedback.push(`* *Por favor reveja seu arquivo markdown, possui alguns erros:* \n\t${isMarkdownValid.errors?.join('\n')}`)
   }
   
 
   let feedBackMessage = ""
   if(closePR) {
-    feedBackMessage = "I'm really sorry!"
+    feedBackMessage = "Sinto muito!"
   } else if(feedback.length) {
     feedBackMessage = `
 ### I have a few items I need you to take care of before I can merge this PR:\n
@@ -154,7 +154,7 @@ Feel free to re-request a review from me and I'll come back and take a look!
     `
   } else {
     // All checks pass
-    feedBackMessage = "Excellent, now you're one step away from a delicious pao de queijo. Find a hubber or Campus Expert so they can merge your pull request and give you a voucher for some pao de queijo. "
+    feedBackMessage = "Excelente, agora voce esta a um passo de distancia do delicioso pao de queijo. Encontre um hubber (pessoa que trabalha no GitHub) ou um campus expert para que deem merge em seu pull request e entreguem seu voucher do pao de queijo. "
     
     try {
        
@@ -162,8 +162,8 @@ Feel free to re-request a review from me and I'll come back and take a look!
       
           } catch(err) {
       console.error(err)
-      feedBackMessage += "\n\n Uh Oh! I tried to merge this PR and something went wrong!"
-      feedback.push("merge failed")
+      feedBackMessage += "\n\n Opa! Tentei dar merge neste PR e algo de errado aconteceu!"
+      feedback.push("merge falhou")
     }
   }
 
@@ -171,8 +171,8 @@ Feel free to re-request a review from me and I'll come back and take a look!
 
   try {
     await octokit.createReview(`
-**Hi ${ actionEvent.pullAuthor },**
-**Welcome to Campus Party !**
+**Oie ${ actionEvent.pullAuthor },**
+**Bem vindo a Campus Party!**
 
 ${ feedBackMessage }
 `, feedback.length ? "REQUEST_CHANGES" : "APPROVE")
