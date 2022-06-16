@@ -1,5 +1,5 @@
 ---
-user: Rson0
-time: 2022-06-16 11:00:00
-quote: Quem dorme não vive
+user: naoki-rafael-miura
+time: 2022-06-16 14:57:00
+quote: estude, o conhecimento muda o mundo
 ---
