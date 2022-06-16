@@ -43,7 +43,7 @@ class FileVaidator {
     if(!meta["time"]) {
         errors.push(`*The attribute time is required in \`${expectedPath}/${pullAuthor}.md\`*`)
       }
-      if(/(\d{4})-(\d{2})-(\d{2}) (\d{2}):(\d{2}):(\d{2})$/.test(meta["time"])){
+      if(/(\d{4})-(\d{2})-(\d{2}) (\d{2}):(\d{2}):(\d{2})/.test(meta["time"])){
         errors.push(`*The attribute time need to be in the format: YYYY-MM-DD HH:MM:SS. For example: 2022-06-15 17:01:10*`)
       }
       if (new Date(meta["time"]) < new Date()){
