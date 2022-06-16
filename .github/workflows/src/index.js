@@ -123,6 +123,7 @@ try {
     if(data.includes(author)){
       let participant = true
      feedBackMessage = "I'm really sorry! It looks like you've already participaed in this activity :("
+     feedback.push("no more bread :(")
     }
   });
  
