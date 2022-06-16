@@ -19,9 +19,9 @@ Fique atento, que `<SEU-USUARIO>` é Case Sensitive (respeita maiúsculas e min�
     
 ```
 ---
-user: Sua github user
-time: 2022-06-16 11:00:00
-quote: Sua frase aqui.
+user: TalesCostta
+time: 2022-06-16 12:51:00
+quote: Recomendo fortemente um ótimo café e também os melhores sabores de miojo para acompanhar as noitadas de networking e desenvolvimento.
 ---
 ```
   
@@ -47,10 +47,10 @@ Essas são as pessoas autorizadas a aprovar o seu Pull Request -
 Informações importantes: Segafredo fica no primeiro andar, junto com as lojas. Você pode trocar o seu cupom por um pão de queijo, OU uma fatia de bolo de fubá, OU um café. 
   
   ## Outras formas de participar com o GitHub na Campus Party 
-  - [ ] Compartilhe sobre o PR Pão de Queijo com seus amigos. Se você for marcado em três diferentes Pull Requests, VOCÊ ganha uma camiseta do GitHub (retirar em nossa bancada) 
-  - [ ] Siga o GitHub Education no [Twitter](https://twitter.com/GitHubEducation) e [Instagram](https://www.instagram.com/githubeducation/) 
-  - [ ] Se inscreva para o [Student Developer Pack](https://education.github.com/pack) (vá até a nossa bancada para suporte) 
-  - [ ] Poste uma foto com o seu pão de queijo e marque o GitHub Education (https://twitter.com/GitHubEducation ou https://www.instagram.com/githubeducation/)
+  - [X] Compartilhe sobre o PR Pão de Queijo com seus amigos. Se você for marcado em três diferentes Pull Requests, VOCÊ ganha uma camiseta do GitHub (retirar em nossa bancada) 
+  - [X] Siga o GitHub Education no [Twitter](https://twitter.com/GitHubEducation) e [Instagram](https://www.instagram.com/githubeducation/) 
+  - [X] Se inscreva para o [Student Developer Pack](https://education.github.com/pack) (vá até a nossa bancada para suporte) 
+  - [X] Poste uma foto com o seu pão de queijo e marque o GitHub Education (https://twitter.com/GitHubEducation ou https://www.instagram.com/githubeducation/)
 
 https://education.github.io/PR-Pao-de-Queijo-Request/
 
