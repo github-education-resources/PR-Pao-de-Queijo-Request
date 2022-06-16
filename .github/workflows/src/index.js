@@ -113,7 +113,7 @@ try {
   // - welcome and congrats
   // - merge PR
   let closePR = false
-
+  let participant = false
   // here it vlidated 
   
   // disable doble validation 
@@ -121,7 +121,7 @@ try {
   fs.readFile(authors, function (err, data) {
     if (err) throw err;
     if(data.includes(author)){
-      let participant = true
+      participant = true
      feedBackMessage = "I'm really sorry! It looks like you've already participaed in this activity :("
      feedback.push("no more bread :(")
     }
