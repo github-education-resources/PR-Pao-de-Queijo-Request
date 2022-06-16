@@ -1,6 +1,6 @@
 ---
 
-user: @rayssapimenta
+user: rayssapimenta
 
 time: 2022-06-16 14:46:00
 
