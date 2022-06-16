@@ -14,9 +14,9 @@ Substitua `<SEU-USUARIO>` pelo seu usuário do GitHub neste guia. Fique atento, 
     
 ```
 ---
-user: Sua github user
-time: 2022-06-16 11:00:00
-quote: Sua frase aqui.
+user: marcyhel
+time: 2022-06-16 12:30:00
+quote: hummm camiseta do git
 ---
 ```
   
