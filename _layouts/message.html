@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 layout: default
 title: Message
@@ -88,3 +89,95 @@ title: Message
       </center>
 </div>
 
+=======
+---
+layout: default
+title: Message
+---
+<style>
+     .share-btns { 
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      display: flex;
+      align-items:center;
+      justify-content: center;
+    }
+
+    .share-btn {
+      display: inline-block;
+      color: #ffffff;
+      border: none;
+      padding: 0.1em 0.6em;
+      outline: none;
+      text-align: center;
+      font-size: 0.9em;
+      margin: 0 0.2em;
+    }
+
+    .share-btn:focus,
+    .share-btn:hover {
+      text-decoration: none;
+      opacity: 0.8;
+    }
+
+    .share-btn:active {
+      color: #e2e2e2;
+    }
+
+    .share-btn.twitter { background: #55acee; }
+    .share-btn.google-plus { background: #dd4b39; }
+    .share-btn.facebook { background: #3B5998; }
+    .share-btn.stumbleupon { background: #EB4823; }
+    .share-btn.reddit { background: #ff5700; }
+    .share-btn.hackernews { background: #ff6600; }
+    .share-btn.linkedin    { background: #4875B4; }
+    .share-btn.email { background: #444444; }
+    .share-btn.whatsapp { background: #25D366; }
+
+</style>
+<div>
+    <center>
+      <div class="col-6" style="padding: 1em ;" >
+        <div class="Box color-shadow-small">
+
+          <div class="Box-row">
+            <img src="https://avatars.githubusercontent.com/{{ page.user }}" height=120 style="clip-path: circle();
+            ">
+            <h3 class="m-0">{{ page.user }}</h3>
+
+          </div>
+          <div class="Box-row">
+            <p class="mb-0 color-fg-muted">
+              {{ page.quote | markdownify }}
+            </p>
+            <p class="mb-0 color-fg-muted" style="padding: 1em;">
+                {{ page.time }}
+              </p>
+          </div>
+          <div class="Box-row">
+
+              <h3 class="m-0">Share to:</h3>
+            <a
+            class="share-btn twitter"
+            href="https://twitter.com/share?url={{ site.url }}{{ site.baseurl }}{{ page.url }}&text=Pao de Queijo Request&via=GitHubEducation"
+            target="_blank"
+          >Twitter</a>
+
+          <a
+            class="share-btn facebook"
+            href="https://www.facebook.com/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }}&title=Pao de Queijo Request" title="Share on Facebook" target="_blank"
+          >Facebook</a>
+
+          <a
+            class="share-btn whatsapp"
+            href="whatsapp://send?text=Pao de Queijo Request message - {{ site.url }}{{ site.baseurl }}{{ page.url }}" data-action="share/whatsapp/share"
+            target="_blank"
+          >Whatsapp</a>
+
+          </div>
+        </div>
+      </div>
+      </center>
+</div>
+
+>>>>>>> 5dbfc7d7f972a81e867b7ea2bd95821d86a512f4
