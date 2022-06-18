@@ -1,5 +1,5 @@
 ---
-user: Edufgs
-time: 2022-06-16 16:41:00
+user: EstevesDouglas
+time: 2022-06-18 15:08:00
 quote: Aprender muito com as palestras.
 ---
