@@ -69,3 +69,21 @@ Once the pull request has been approved, you can see your message on the event G
     </td></tr>
 </table>
 <!-- readme: contributors,lasr21/-,elisemoe/-,pedrolacerda/-,mlarasusan/-,github-education/-,juanpflores/- -end -->
+
+
+## Principais error
+### Não fazer o PR na pasta _ messages
+Em algus casos, seu navegador pode traduzir o nome da pasta messages e colocar mensagens. NÃO faça o commit na pasta mensagens, corrija de volta para messages
+
+## Não seguir exatamente o formato abaixo
+O Formato do time é ANO-MES-DIA 
+Exemplo:
+time: 2022-06-16 11:00:00 é Dia 16 de Junho de 2022
+
+```
+---
+user: Sua github user @
+time: 2022-06-16 11:00:00
+quote: Sua frase aqui.
+---
+```
