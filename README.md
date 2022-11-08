@@ -55,21 +55,6 @@ Informações importantes: Segafredo fica no primeiro andar, junto com as lojas.
 ## See your message to the campuseiros 👀
 Once the pull request has been approved, you can see your message on the event GitHub PageQuando seu pull request for aprovado, voce vera sua mensagem na GitHub Page do evento: https://education.github.io/PR-Pao-de-Queijo-Request/
 
-## Vencedores do Pão de Queijo
-
-<!-- readme: contributors,lasr21/-,elisemoe/-,pedrolacerda/-,mlarasusan/-,github-education/-,juanpflores/- -start -->
-<table>
-<tr>
-    <td align="center">
-        <a href="https://github.com/lasrtest">
-            <img src="https://avatars.githubusercontent.com/u/107520330?v=4" width="100;" alt="lasrtest"/>
-            <br />
-            <sub><b>lasrtest</b></sub>
-        </a>
-    </td></tr>
-</table>
-<!-- readme: contributors,lasr21/-,elisemoe/-,pedrolacerda/-,mlarasusan/-,github-education/-,juanpflores/- -end -->
-
 
 ## Principais error
 ### Não fazer o PR na pasta _ messages
