@@ -1,23 +1,38 @@
-# GitHub x PR Pao de Queijo
+# GitHub PR - Pão de Queijo Request
 
-## How to join PR Pão de Queijo
-There are three steps to join and receive your free Pão de Queijo.
+## Como participar do PR Pão de Queijo
+Para participar e receber o seu Pão de Queijo gratuito, você precisa seguir os três passos descritos abaixo. 
 
-### 1. Create a Pull Request to this repository
-Replace <YOUR-USERNAME> with your GitHub username in this guide. Please note that the <YOUR-USERNAME> is Case Sensitive. For Example, if your username is MonaTheOctocat, using anything other than it like monatheoctocat or monaTheoctocat will throw an error while submitting the Pull Request, make sure you're using the exact same case as your username in both the folder name and file name.
+### 1. Faça um Pull Request neste repositório
+
+O que você recomendaria para outra pessoa Campuseira fazer durante a Campus Party? (Max 280 char)
+
+Substitua `<SEU-USUARIO>` pelo seu usuário do GitHub neste guia. 
+
+Crie um arquivo markdown dentro da pasta `_messages` seguindo esse exemplo: `<YOUR-USERNAME>.md`. 
+
+Ex. `_messages/MonaTheOctocat.md`
+
+Fique atento, que `<SEU-USUARIO>` é Case Sensitive (respeita maiúsculas e minúsculas). Por exemplo, se o seu nome de usuário é `MonaTheOctocat`, usar outras variações como `monatheoctocat` ou `monaTheoctocat` irá gerar um erro ao submeter o Pull Request. Tenha certeza que você está usando o seu nome de usuário corretamente tanto no nome da pasta quanto no nome do arquivo.
   
-Do not use special characters in the template above.
-
-Go through the checklist on the pull request template to guarantee your submission is valid. The GitHub Education team will review your application, approve and merge your submission if everything is correct. Otherwise, you will get notified of the changes requested in the pull request comment section.
-
-Having trouble submitting your Pull Request? Ask for help in the GitHub Community!
+🚨 Não use caracteres especiais no template acima.
+    
+```
+---
+user: Sua github user
+time: 2022-06-16 11:00:00
+quote: Sua frase aqui.
+---
+```
   
-### 2. Find a GitHub Employee or Campus Expert
-GitHub Employees and GitHub Campus Experts all have the permission to merge your Pull Request and give you a coupon for free Pao de queijo. We might be walking around the event but you can also find us at our table. 👀 🗺️
-  
-TODO: add instructions about how to find our table at Campus Party
+Use o checklist no template do Pull Request para garantir que sua submissão é válida. A equipe do GitHub Education irá revisar sua aplicação, aprovar e fazer o merge da sua submissão se tudo estiver correto. Caso contrário, você será notificado das mudanças necessárias nos comentários do Pull Request.
 
-People with the power to merge your Pull Request -
+❓ Está enfrentando algum problema ao submeter o seu Pull Request? Busque por ajuda no [GitHub Community](https://github.community/)!
+  
+### 2. Encontre alguém do GitHub na Campus Party 
+Funcionários e Campus Experts do GitHub são os únicos com a permissão para aprovar o seu Pull Request e fornecer o cupom para o pão de queijo. Você pode nos encontrar caminhando pelo evento (as pessoas das fotos abaixo), mas estaremos sempre em nossa bancada dentro da arena 👀 🗺️
+  
+Essas são as pessoas autorizadas a aprovar o seu Pull Request -
   
   ![mlarasusan](https://avatars.githubusercontent.com/mlarasusan?s=64)
   ![elisemoe](https://avatars.githubusercontent.com/elisemoe?s=64)
@@ -27,13 +42,33 @@ People with the power to merge your Pull Request -
   ![euaaron](https://avatars.githubusercontent.com/euaaron?s=64)
   ![wgcv](https://avatars.githubusercontent.com/wgcv?s=64)
   
-  ### 3. Eat! Head to the coffee shop to redeem your coupon.
-  TODO: add information about how to find the coffee shop and the hours they're open.
+  ### 3. Hora de comer! Vá até o Segafredo Café para retirar o seu pão de queijo
   
-  ## More ways to hangout with GitHub Education at Campus Party
-  - [ ] Tell your friends about Pao de queijo! If 3 friends tag you in their Pull Request, we'll give you a GitHub t-shirt
-  - [ ] Follow our social media accounts
-  - [ ] Join the Student Developer Pack
-  - [ ] Post a photo with your Pao de queijo and tag @GitHubEducation
+Informações importantes: Segafredo fica no primeiro andar, junto com as lojas. Você pode trocar o seu cupom por um pão de queijo, OU uma fatia de bolo de fubá, OU um café. 
   
-  
+  ## Outras formas de participar com o GitHub na Campus Party 
+  - [ ] Compartilhe sobre o PR Pão de Queijo com seus amigos. Se você for marcado em três diferentes Pull Requests, VOCÊ ganha uma camiseta do GitHub (retirar em nossa bancada) 
+  - [ ] Siga o GitHub Education no [Twitter](https://twitter.com/GitHubEducation) e [Instagram](https://www.instagram.com/githubeducation/) 
+  - [ ] Se inscreva para o [Student Developer Pack](https://education.github.com/pack) (vá até a nossa bancada para suporte) 
+  - [ ] Poste uma foto com o seu pão de queijo e marque o GitHub Education no [Twitter](https://twitter.com/GitHubEducation) e/ou [Instagram](https://www.instagram.com/githubeducation/)
+
+## See your message to the campuseiros 👀
+Once the pull request has been approved, you can see your message on the event GitHub PageQuando seu pull request for aprovado, voce vera sua mensagem na GitHub Page do evento: https://education.github.io/PR-Pao-de-Queijo-Request/
+
+
+## Principais error
+### Não fazer o PR na pasta _ messages
+Em algus casos, seu navegador pode traduzir o nome da pasta messages e colocar mensagens. NÃO faça o commit na pasta mensagens, corrija de volta para messages
+
+## Não seguir exatamente o formato abaixo
+O Formato do time é ANO-MES-DIA 
+Exemplo:
+time: 2022-06-16 11:00:00 é Dia 16 de Junho de 2022
+
+```
+---
+user: Sua github user @
+time: 2022-06-16 11:00:00
+quote: Sua frase aqui.
+---
+```

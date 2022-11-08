@@ -4,9 +4,8 @@ const yaml = require('yaml')
 const md = require('markdown-it')
 
 const pullAuthor = actionEvent.pull.user.login
-const expectedPath = `data/${pullAuthor}`
-const authors1 = `data/authors.txt`
-const characterLimits = {  quote: 140 }
+const expectedPath = `_messages`
+const characterLimits = { user: 28, time: 30, quote: 280 }
 
 class FileVaidator {
   constructor() {
@@ -41,8 +40,18 @@ class FileVaidator {
       /*if(meta.github_user !== pullAuthor) {
         errors.push(`*The yaml content in \`${expectedPath}/${pullAuthor}.md\` must contain your github username*`)
       }*/
-
-      for(const key of [ "quote" ]) {
+      for(const key of [ "time" ]) {
+        if(!meta["time"]) {
+          errors.push(`*The attribute time is required in \`${expectedPath}/${pullAuthor}.md\`*`)
+        }
+        if(!(/(\d{4})-(\d{2})-(\d{2}) (\d{2}):(\d{2}):(\d{2})$/.test(String(meta["time"])))){
+          errors.push(`*The attribute time need to be in the format: YYYY-MM-DD HH:MM:SS. For example: 2022-06-15 17:01:10*`)
+        }
+        if (!(new Date(String(meta["time"])) < new Date())){
+          errors.push(`*You can't a time in the future.*`)
+        }
+      }
+      for(const key of [ "user", "time", "quote"]) {
         if(!meta[key]) {
           errors.push(`*The attribute \`${key}\` is required in \`${expectedPath}/${pullAuthor}.md\`*`)
         } else if(meta[key].length > characterLimits[key]) {
