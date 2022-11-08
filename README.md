@@ -52,54 +52,23 @@ Informações importantes: Segafredo fica no primeiro andar, junto com as lojas.
   - [ ] Se inscreva para o [Student Developer Pack](https://education.github.com/pack) (vá até a nossa bancada para suporte) 
   - [ ] Poste uma foto com o seu pão de queijo e marque o GitHub Education no [Twitter](https://twitter.com/GitHubEducation) e/ou [Instagram](https://www.instagram.com/githubeducation/)
 
-https://education.github.io/PR-Pao-de-Queijo-Request/
+## See your message to the campuseiros 👀
+Once the pull request has been approved, you can see your message on the event GitHub PageQuando seu pull request for aprovado, voce vera sua mensagem na GitHub Page do evento: https://education.github.io/PR-Pao-de-Queijo-Request/
 
-## Vencedores do Pão de Queijo
 
-<!-- readme: contributors,lasr21/-,elisemoe/-,pedrolacerda/-,mlarasusan/-,github-education/-,juanpflores/- -start -->
-<table>
-<tr>
-    <td align="center">
-        <a href="https://github.com/wgcv">
-            <img src="https://avatars.githubusercontent.com/u/8989089?v=4" width="100;" alt="wgcv"/>
-            <br />
-            <sub><b>Gustavo Cevallos</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/CarlosConradoB">
-            <img src="https://avatars.githubusercontent.com/u/84047573?v=4" width="100;" alt="CarlosConradoB"/>
-            <br />
-            <sub><b>CarlosConradoB</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/Joao-Victor-RVG">
-            <img src="https://avatars.githubusercontent.com/u/80182535?v=4" width="100;" alt="Joao-Victor-RVG"/>
-            <br />
-            <sub><b>João Victor Rocha Vilela Godoi </b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/pachicodes">
-            <img src="https://avatars.githubusercontent.com/u/44537285?v=4" width="100;" alt="pachicodes"/>
-            <br />
-            <sub><b>Pachi Parra</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/euaaron">
-            <img src="https://avatars.githubusercontent.com/u/26356962?v=4" width="100;" alt="euaaron"/>
-            <br />
-            <sub><b>Aaron Carneiro</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/lasrtest">
-            <img src="https://avatars.githubusercontent.com/u/107520330?v=4" width="100;" alt="lasrtest"/>
-            <br />
-            <sub><b>Lasrtest</b></sub>
-        </a>
-    </td></tr>
-</table>
-<!-- readme: contributors,lasr21/-,elisemoe/-,pedrolacerda/-,mlarasusan/-,github-education/-,juanpflores/- -end -->
+## Principais error
+### Não fazer o PR na pasta _ messages
+Em algus casos, seu navegador pode traduzir o nome da pasta messages e colocar mensagens. NÃO faça o commit na pasta mensagens, corrija de volta para messages
+
+## Não seguir exatamente o formato abaixo
+O Formato do time é ANO-MES-DIA 
+Exemplo:
+time: 2022-06-16 11:00:00 é Dia 16 de Junho de 2022
+
+```
+---
+user: Sua github user @
+time: 2022-06-16 11:00:00
+quote: Sua frase aqui.
+---
+```
